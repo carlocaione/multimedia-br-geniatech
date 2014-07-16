@@ -6,7 +6,6 @@
 #include <sys/ioctl.h>
 #include <dlfcn.h>
 #include <sys/mman.h>
-#include <cutils/properties.h>
 #include <unistd.h>
 
 #include "../../amadec/adec-armdec-mgt.h"
