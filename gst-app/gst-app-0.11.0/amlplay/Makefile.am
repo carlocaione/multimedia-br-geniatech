@@ -7,7 +7,7 @@ libgplaycore_la_LIBADD = $(GST_LIBS) -lz
 bin_PROGRAMS = gplay
 gplay_SOURCES = mfw_gplay.c playlist.c
 gplay_CFLAGS  = $(GST_CFLAGS) 
-gplay_LDADD   = libgplaycore.la
+gplay_LDADD   = libgplaycore.la $(GST_LIBS)
 
 noinst_HEADERS = \
     fsl_player_debug.h      \
